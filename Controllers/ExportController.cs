@@ -11,7 +11,7 @@ namespace ConceptZeeWebAPI.Controllers
     public class ExportController(AppDbContext context) : ControllerBase
     {
         private readonly AppDbContext _context = context;
-        private const string DeletePassword = "cZeeDelete"; // Hard-coded password
+        private const string DeletePassword = "*******"; // Hard-coded password
 
         [HttpGet]
         public async Task<IActionResult> ExportToExcel()
