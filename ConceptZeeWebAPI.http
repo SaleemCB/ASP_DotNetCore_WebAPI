@@ -1,0 +1,6 @@
+@ConceptZeeWebAPI_HostAddress = http://localhost:5128
+
+GET {{ConceptZeeWebAPI_HostAddress}}/czeecontacts/
+Accept: application/json
+
+###
