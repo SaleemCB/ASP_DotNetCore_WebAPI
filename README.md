@@ -71,11 +71,11 @@ The API documentation is available via Swagger at `http://localhost:5000/swagger
 ## Endpoints
 Here is a list of the main API endpoints:
 
-- **GET  /api/czeecontacts/GetContacts: Retrieve a list of contacts.
-- **GET  /api/czeecontacts/GetContacts/{id}**: Retrieve a specific contact by ID.
-- **POST /api/czeecontacts/PostContact: Create a new contact.
-- **PUT  -- not yet implemented.
-- **DELETE /api/[export/ClearContacts: Deletes all contacts.
+- ** GET  /api/czeecontacts/GetContacts: Retrieve a list of contacts.
+- ** GET  /api/czeecontacts/GetContacts/{id}**: Retrieve a specific contact by ID.
+- ** POST /api/czeecontacts/PostContact: Create a new contact.
+- ** PUT  -- not yet implemented.
+- ** DELETE /api/export/ClearContacts: Deletes all contacts.
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
